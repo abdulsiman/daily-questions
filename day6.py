@@ -1,4 +1,4 @@
-n=int(input("Enter n digit number"))
+n=int(input("Enter n digit number:"))
 org = n
 rev=0
 while n!=0:
