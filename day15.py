@@ -10,10 +10,10 @@ def maximum(num1,num2,num3):
         print(f"{num3} is maximum")
 def minimum(num1,num2,num3):
     if(num1<=num2 and num1<=num3):
-        print(f"{num1} is manimum")
+        print(f"{num1} is minimum")
     elif(num2<=num1 and num2<=num3):
-        print(f"{num2} is manimum")
+        print(f"{num2} is minimum")
     elif(num3<=num2 and num3<=num1):
-        print(f"{num3} is manimum")
+        print(f"{num3} is minimum")
 maximum(num1,num2,num3)
 minimum(num1,num2,num3)
